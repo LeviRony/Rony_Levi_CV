@@ -1,13 +1,14 @@
 {
   "name": "my-app",
   "version": "0.1.0",
-  "private": true,
   "homepage": "https://levirony.github.io/Rony_Levi_CV/",
+  "private": true,
   "scripts": {
     "dev": "next dev --turbopack",
-    "build": "next build && next export",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d out"
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build"
   },
   "dependencies": {
     "next": "15.2.4",
