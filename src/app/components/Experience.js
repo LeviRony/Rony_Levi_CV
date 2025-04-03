@@ -1,18 +1,16 @@
 import React from 'react';
-
+import styles from "../page.module.css"
 const Experience = ({ experiences }) => {
   return (
     <section>
-      <h3>Experience</h3>
-      <ul>
+      <h2>Experience</h2>
         {experiences.map((exp, index) => (
-          <li key={index}>
+          <ul key={index}>
             <h4>{exp.role} - {exp.company}</h4>
             <p>{exp.date}</p>
-            <p>{exp.description}</p>
-          </li>
+            <p className={styles.description}>{exp.description}</p>
+          </ul>
         ))}
-      </ul>
     </section>
   );
 };
