@@ -4,6 +4,7 @@ import Experience from './components/Experience';
 import Skills from './components/Skills';
 import Education from './components/Education';
 import styles from "./page.module.css";
+import './page.module.css';
 
 const App = () => {
   const headerData = {
@@ -129,7 +130,6 @@ const App = () => {
           location={headerData.location}
         />
       </div>
-      
         <div className={styles.experience_item}>
           <Experience experiences={experienceData} />
         </div>
