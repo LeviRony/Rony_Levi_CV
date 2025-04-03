@@ -55,8 +55,13 @@
 .education {
   display: flex;
   flex-direction: column;
+  width: 100px;
 }
+.education_item ul{
+  text-align: left;
+  max-width: 800px;
 
+}
 .experience_item{
   margin-top: -20px;
   line-height: 1.3;

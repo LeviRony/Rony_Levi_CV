@@ -97,22 +97,22 @@ const App = () => {
     {
       degree: 'Full Stack Developer',
       institution: 'IPC',
-      year: '2024 - 2025',
+      year: '(2024 - 2025)',
     },
     {
       degree: 'Full Stack QA Automation',
       institution: 'Tech University',
-      year: '2018',
+      year: '(2018)',
     },
     {
       degree: 'Jira & Confluence Master',
       institution: '',
-      year: '2017',
+      year: '(2017)',
     },
     {
       degree: 'Software QA',
       institution: 'John Brice',
-      year: '2008-2009',
+      year: '(2008-2009)',
     },
   ];
 
