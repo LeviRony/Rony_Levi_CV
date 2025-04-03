@@ -11,11 +11,6 @@ const App = () => {
     name: 'Rony Levi',
     email: 'ronylevi99@gmail.com',
     phone: '+972544273287',
-<<<<<<< HEAD
-    location: '',
-    title:'',
-=======
->>>>>>> main
   };
 
   const experienceData = [
