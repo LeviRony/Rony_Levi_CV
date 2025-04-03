@@ -4,6 +4,7 @@ import Experience from './components/Experience';
 import Skills from './components/Skills';
 import Education from './components/Education';
 import styles from "./page.module.css";
+import { title } from 'process';
 
 const App = () => {
   const headerData = {
@@ -11,6 +12,8 @@ const App = () => {
     name: 'Rony Levi',
     email: 'ronylevi99@gmail.com',
     phone: '+972544273287',
+    locatio: '' ,
+    title: '',
   };
 
   const experienceData = [
@@ -121,15 +124,10 @@ const App = () => {
       <div className={styles.header}>
         <Header
           name={headerData.name}
-<<<<<<< HEAD
+          email={headerData.email}
+          phone={headerData.phone}
+          location={headerData.locatio}
           title={headerData.title}
-          email={headerData.email}
-          phone={headerData.phone}
-          location={headerData.location}
-=======
-          email={headerData.email}
-          phone={headerData.phone}
->>>>>>> main
         />
       </div>
       
