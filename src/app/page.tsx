@@ -12,8 +12,6 @@ const App = () => {
     name: 'Rony Levi',
     email: 'ronylevi99@gmail.com',
     phone: '+972544273287',
-    location: '',
-    title:'',
   };
 
   const experienceData = [
@@ -124,10 +122,8 @@ const App = () => {
       <div className={styles.header}>
         <Header
           name={headerData.name}
-          title={headerData.title}
           email={headerData.email}
           phone={headerData.phone}
-          location={headerData.location}
         />
       </div>
         <div className={styles.experience_item}>
