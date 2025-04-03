@@ -123,15 +123,10 @@ const App = () => {
       <div className={styles.header}>
         <Header
           name={headerData.name}
-<<<<<<< HEAD
           title={headerData.title}
           email={headerData.email}
           phone={headerData.phone}
           location={headerData.location}
-=======
-          email={headerData.email}
-          phone={headerData.phone}
->>>>>>> main
         />
       </div>
       
